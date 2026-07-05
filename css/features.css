@@ -1,3 +1,5 @@
+/* graphick-color settings */
+
 .features-main {
   background-color: #ffffff;
 }
@@ -21,4 +23,47 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+/* block-model settings */
+
+.features-main {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
+.features-point {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+.features-point-title {
+  margin-bottom: 8px;
+}
+
+.team-main {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+team-main-title {
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-points {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  border-radius: 0 0 4px 4px;
+}
+
+team-card-content {
+  padding: 32px 16px;
 }

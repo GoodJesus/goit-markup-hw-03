@@ -1,3 +1,5 @@
+/* graphick-color settings */
+
 .footer-main {
   background-color: #2e2f42;
 }
@@ -20,4 +22,24 @@
 
 .footer-logo-description {
   color: #f4f4fd;
+}
+
+/* block-model settings */
+
+.footer-container {
+  max-width: 1158px;
+}
+
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-text {
+  max-width: 264px;
 }

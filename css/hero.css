@@ -1,3 +1,5 @@
+/* graphick-color settings */
+
 .hero {
   background-color: #2e2f42;
 }
@@ -23,4 +25,27 @@
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
+}
+
+/* block-model settings */
+
+.hero {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.hero-title {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
