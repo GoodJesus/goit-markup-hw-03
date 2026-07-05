@@ -22,6 +22,7 @@
 
 .footer-logo-description {
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 /* block-model settings */
@@ -30,16 +31,12 @@
   max-width: 1158px;
 }
 
-.footer {
+.footer-main {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-.footer-logo {
+.footer-logo-text {
   display: inline-block;
   margin-bottom: 16px;
-}
-
-.footer-text {
-  max-width: 264px;
 }

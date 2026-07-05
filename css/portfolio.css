@@ -6,24 +6,12 @@
   padding-bottom: 120px;
 }
 
-.portfolio-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  color: #2e2f42;
-}
-.portfolio-list {
-}
-.portfolio-point {
-}
-.portfolio-img {
-}
 .portfolio-photo-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-name-description {
   color: #434455;
@@ -42,7 +30,7 @@
   row-gap: 48px;
 }
 
-.portfolio-item {
+.portfolio-point {
   flex-basis: calc((100% - 2 * 24px) / 3);
 }
 

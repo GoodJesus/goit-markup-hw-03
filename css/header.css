@@ -43,7 +43,6 @@
 .header .container {
   display: flex;
   align-items: center;
-  margin: 0 141px;
 }
 
 .header .logo {
@@ -52,11 +51,6 @@
   margin-right: 91px;
   padding-top: 24px;
   padding-bottom: 24px;
-}
-
-.header .header-nav {
-  display: flex;
-  align-items: center;
 }
 
 .nav-list {
@@ -74,11 +68,17 @@
   align-items: center;
   gap: 40px;
   margin: 0;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  margin-left: auto;
   padding-left: 0;
 }
 
 .header {
   border-bottom: 1px solid #eceeef;
+}
+
+.nav-link,
+.contact-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }

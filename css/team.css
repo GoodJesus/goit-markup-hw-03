@@ -1,3 +1,5 @@
+/* graphick-color settings */
+
 .team-main {
   background-color: #f4f4fd;
 }
@@ -10,14 +12,8 @@
   text-align: center;
 }
 
-.team-list {
-}
-
 .team-points {
   background-color: #ffffff;
-}
-
-.team-img {
 }
 
 .team-ppl {
@@ -30,4 +26,34 @@
 .team-ppl-tg {
   text-align: center;
   color: #434455;
+}
+
+/* block-model settings */
+
+.team-main {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.team-main-title {
+  text-align: center;
+  padding-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-points {
+  width: 264px;
+  border-radius: 0 0 4px 4px;
+}
+
+.team-card-content {
+  padding: 32px 16px;
+}
+
+.team-ppl {
+  margin-bottom: 8px;
 }
