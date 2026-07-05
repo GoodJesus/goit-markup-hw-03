@@ -1,0 +1,33 @@
+.team-main {
+  background-color: #f4f4fd;
+}
+
+.team-title {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+}
+
+.team-list {
+}
+
+.team-points {
+  background-color: #ffffff;
+}
+
+.team-img {
+}
+
+.team-ppl {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  color: #2e2f42;
+}
+.team-ppl-tg {
+  text-align: center;
+  color: #434455;
+}
